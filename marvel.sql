@@ -58,3 +58,5 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '15:0
 
 SELECT * FROM movies;
 SELECT name FROM people;
+UPDATE people SET name = 'Jesus Perez' WHERE name = 'Jezuz	Perez';
+select * from people;

@@ -53,7 +53,8 @@ id |                title                | year | show_time
 
 2.  Return ONLY the name column from the 'people' table
 
-SELECT name FROM people;
+
+CODE:-      SELECT name FROM people;
 
 name            
 ---------------------------
@@ -82,10 +83,44 @@ Daniel  Warren
 
 
 
+
 3.  Oops! Someone at CodeClan spelled Jesus's name wrong! Change it to reflect the proper spelling ('Jezuz Perez' should be 'Jesus Perez').
+
+CODE:-  UPDATE people SET name = 'Jesus Perez' WHERE name = 'Jezus  Perez';
+        select * from people;
+
+        UPDATE 1
+         id |           name            
+        ----+---------------------------
+          1 | Shaun   Adams
+          2 | James   Amos
+          3 | Lee     Burgess
+          4 | Stuart  Charters
+          5 | Wil     Cornish
+          6 | Gregor  Cox
+          7 | Chris   Craig
+          8 | Gabriel González Villalba
+          9 | James   Henderson
+         10 | Edward  Kinley
+         11 | Magdalena       Kisala
+         12 | Emily Milne
+         13 | Iona    Macbeth
+         14 | Gary    Muir
+         15 | Helen   Oshea
+         16 | David   Pears
+         18 | Benjamin        Robinson
+         19 | Stephen Rooney
+         20 | Can     Toraman
+         21 | Daniel  Warren
+         17 | Jesus Perez
+        (21 rows)
+
+
 
 
 4.  Return ONLY your name from the 'people' table.
+
+
 
 
 5.  The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
