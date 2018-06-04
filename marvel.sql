@@ -76,3 +76,7 @@ SELECT * FROM movies;
 -- (Question 6)
 INSERT INTO people (name) VALUES ('Zsolt  Podoba-Szalai');
 SELECT * FROM people;
+
+-- (Question 7)
+DELETE FROM people WHERE name = 'Emily Milne';
+SELECT * FROM people;

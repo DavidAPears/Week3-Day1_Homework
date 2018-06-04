@@ -190,6 +190,34 @@ CODE:-  INSERT INTO people (name) VALUES ('Zsolt  Podoba-Szalai');
 
 7.  Emily Milne has decided to hijack our movie evening, Remove her from the table of people
 
+CODE:-   DELETE FROM people WHERE name = 'Emily Milne';
+         SELECT * FROM people;
+
+                 DELETE 1
+         id |           name            
+        ----+---------------------------
+          1 | Shaun   Adams
+          2 | James   Amos
+          3 | Lee     Burgess
+          4 | Stuart  Charters
+          5 | Wil     Cornish
+          6 | Gregor  Cox
+          7 | Chris   Craig
+          8 | Gabriel González Villalba
+          9 | James   Henderson
+         10 | Edward  Kinley
+         11 | Magdalena       Kisala
+         13 | Iona    Macbeth
+         14 | Gary    Muir
+         15 | Helen   Oshea
+         16 | David   Pears
+         18 | Benjamin        Robinson
+         19 | Stephen Rooney
+         20 | Can     Toraman
+         21 | Daniel  Warren
+         17 | Jesus Perez
+         22 | Zsolt  Podoba-Szalai
+        (21 rows)
 
 8.  The cinema has just heard that they will be holding an exclusive midnight showing of 'Avengers: Infinity War'!! Create a new entry in the 'movies' table to reflect this.
 
