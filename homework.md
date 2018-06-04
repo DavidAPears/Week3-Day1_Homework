@@ -120,7 +120,12 @@ CODE:-  UPDATE people SET name = 'Jesus Perez' WHERE name = 'Jezus  Perez';
 
 4.  Return ONLY your name from the 'people' table.
 
+CODE:-    SELECT * FROM people WHERE id = 16
 
+        id |     name      
+        ----+---------------
+        16 | David   Pears
+        (1 row)
 
 
 5.  The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
