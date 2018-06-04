@@ -284,5 +284,20 @@ CODE:-    UPDATE movies SET show_time = '21.05' WHERE title = 'Guardians of the 
 
 ## Extension
 
-
 1.  Research how to delete multiple entries from your table in a single command.
+
+Same as deleting a single row except using a 'WHERE' clause will match multiple rows - (Source: tiny.cc/tm4buy )
+
+
+CODE:   DELETE FROM movies WHERE id > 5;
+        SELECT * FROM movies;
+
+
+                DELETE 14
+         id |               title                | year | show_time
+        ----+------------------------------------+------+-----------
+          1 | Iron Man                           | 2008 | 23:55
+          2 | The Incredible Hulk                | 2008 | 12:10
+          3 | Iron Man 2                         | 2010 | 15:45
+          4 | Thor                               | 2011 | 16:25
+          5 | Captain America: The First Avenger | 2011 | 16:55
