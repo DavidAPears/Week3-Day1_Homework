@@ -92,5 +92,18 @@ SELECT * FROM movies;
 
 -- (EXTENSION)
 
+-- Remember: The general format for the DELECT Statement is:
+--
+--      DELETE
+--      FROM   tableName
+--      WHERE  searchCondition
+
+--I.E:
+
 DELETE FROM movies WHERE id > 5;
+SELECT * FROM movies;
+
+-- or
+
+DELETE FROM movies WHERE year < 2010;
 SELECT * FROM movies;
