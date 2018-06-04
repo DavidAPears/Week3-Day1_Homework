@@ -80,3 +80,7 @@ SELECT * FROM people;
 -- (Question 7)
 DELETE FROM people WHERE name = 'Emily Milne';
 SELECT * FROM people;
+
+-- (Question 8)
+INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '00:00');
+SELECT * FROM movies;
