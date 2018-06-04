@@ -72,3 +72,7 @@ SELECT * FROM people WHERE id = 16;
 -- (Question 5)
 DELETE FROM movies WHERE title = 'Batman Begins';
 SELECT * FROM movies;
+
+-- (Question 6)
+INSERT INTO people (name) VALUES ('Zsolt  Podoba-Szalai');
+SELECT * FROM people;
