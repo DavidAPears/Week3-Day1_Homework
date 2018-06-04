@@ -84,3 +84,8 @@ SELECT * FROM people;
 -- (Question 8)
 INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '00:00');
 SELECT * FROM movies;
+
+-- (Question 9)
+-- Note - Guardians of the Galaxy" show time is 19.05h, so "Guardians of the Galaxy 2" showtime to be 21.05h
+UPDATE movies SET show_time = '21.05' WHERE title = 'Guardians of the Galaxy 2';
+SELECT * FROM movies;
